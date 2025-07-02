@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent linux_node
 
     environment {
         PY_ENV_PATH = 'python_environment'  // Folder for the virtual environment
